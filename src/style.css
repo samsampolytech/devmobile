@@ -1,0 +1,35 @@
+.headerClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+}
+
+.footerClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(227, 12, 12);
+    font-style: italic;
+    font-size: larger;
+}
+
+.formul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.signIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(228, 235, 84);
+}

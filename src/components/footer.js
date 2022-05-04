@@ -1,5 +1,5 @@
 function Footer(){
-    return(<footer><p> SRT 2022-2023</p></footer>)
+    return (<footer className="footerClass"><p>SRT 2021 - 2022</p></footer>)
 }
 
 export default Footer
