@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML vers React</title>
+  </head>
+  <body>
+    <div id="blabla">blabla</div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+      function MyFirstComponent(){
+	  return(<div>myfirstcomponent</div>);
+      }
+      function MySecondComponent(){
+	  return(<p>ajout de nouveaux éléments</p>);
+      }
+      ReactDOM.render(<React.Fragment><MyFirstComponent/><MySecondComponent/></React.Fragment>, document.getElementById("blabla"));
+    </script>
+  </body>
+</html>
