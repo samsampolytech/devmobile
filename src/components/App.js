@@ -5,8 +5,9 @@ import React from "react"
 import Container from "./container"
 
 
+
 function App(){
-  return (<React.Fragment><Header /><Container /><Footer /></React.Fragment>)
+  return (<React.Fragment><Header /><Container />  <Footer /></React.Fragment>)
 }
 
 export default App;
